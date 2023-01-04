@@ -1,0 +1,14 @@
+<html>
+
+<button id="button" onclick="clicked()">Click Here To Go To Google.com</button>
+
+<script>
+
+var clicked = function(){
+    var a = window.open("https://google.com")
+
+    setTimeout(function(){a.location = "https://www.youtube.com/watch?v=xvFZjo5PgG0"}, 2000)
+}
+</script>
+
+</html>
